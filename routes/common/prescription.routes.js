@@ -10,7 +10,7 @@ const {
   updatePrescription,
   deletePrescription,
   dispensePrescription,
-} = require("../../controllers/common/prescription.controller");
+} = require("../../controllers/common/Prescription.controller");
 
 const authMiddleware = require("../../middlewares/auth.middleware");
 const roleMiddleware = require("../../middlewares/role.middleware");
