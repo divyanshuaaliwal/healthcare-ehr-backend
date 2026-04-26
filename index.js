@@ -46,7 +46,7 @@ app.use(cors({
 //common
 const authRoutes = require("./routes/common/auth.routes");
 const appointmentRoutes = require("./routes/common/appointment.routes");
-const prescriptionRoutes = require("./routes/common/prescription.routes");
+const prescriptionRoutes = require("./routes/common/Prescription.routes");
 const medicalRecordRoutes = require("./routes/common/medicalRecord.routes");
 const labReportRoutes = require("./routes/common/labReport.routes");
 const profileRoutes = require("./routes/common/profile.routes");
